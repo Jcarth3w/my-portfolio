@@ -1,0 +1,61 @@
+.home-container {
+  display: flex;
+  justify-content: space-around; /* spread out image + text */
+  align-items: center;
+  min-height: 100vh;
+  padding: 4rem;
+  background-color: #fff;
+}
+
+.profile-image {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ddd; /* fallback */
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.text-section h1 {
+  font-size: 5rem;  /* bigger name */
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.text-section h1 span {
+  display: block;
+}
+
+.text-section p {
+  margin: 1.5rem 0 3rem;
+  font-size: 1.5rem;
+  color: #444;
+}
+
+.button-group {
+  display: flex;
+  gap: 2rem;
+}
+
+.button-group button {
+  padding: 1rem 2.5rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #ddd;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button-group button:hover {
+  background-color: #bbb;
+}
